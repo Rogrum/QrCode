@@ -1,0 +1,65 @@
+/* Site build */
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+p, a {
+  font-family: "Outfit", sans-serif;
+}
+
+h3 {
+  font-family: "Outfit-bold", sans-serif;
+}
+
+#center-screen .qr-code {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5%;
+  padding-top: 15px;
+  width: 300px;
+  height: 450px;
+}
+
+#center-screen .qr-code .qr-image {
+  border-radius: 5%;
+  width: 90%;
+}
+
+#center-screen .qr-code p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
+
+#center-screen .qr-code h3, p {
+  width: 250px;
+  position: relative;
+  left: 25px;
+}
+
+#footer {
+  font-size: 15px;
+  text-align: center;
+}
+
+#footer a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* PC resolution */
+#center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 85vh;
+}
+
+/* Mobile resolution */
+@media (max-width: 600px) {
+  #center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 55vh;
+  }
+}
