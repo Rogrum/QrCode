@@ -1,4 +1,3 @@
-/* Site build */
 body {
   background-color: hsl(212, 45%, 89%);
   margin: 0;
@@ -17,7 +16,7 @@ h3 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-height: 85vh;
+  min-height: 100vh;
 }
 
 #center-screen .qr-code {
@@ -28,29 +27,31 @@ h3 {
   height: 49vh;
 }
 
-#center-screen .qr-code .qr-text{
-  display: inline-block;
-  width: 28vh;
-}
-
 #center-screen .qr-code .qr-image {
   border-radius: 5%;
   width: 90%;
+}
+
+#center-screen .qr-code .qr-text {
+  display: inline-block;
+  width: 30vh;
 }
 
 #center-screen .qr-code p {
   font-size: 1.7vh;
   color: hsl(220, 15%, 55%);
 }
+
 #center-screen .qr-code h3 {
   font-size: 2.2vh;
 }
 
-#footer {
-  font-size: 1.7vh;
-  text-align: center;
+.footer {
+  position: absolute;
+  bottom: 4vh;
 }
 
-#footer a {
+.footer a {
   color: hsl(228, 45%, 44%);
+  font-size: 1.7vh;
 }
