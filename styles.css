@@ -1,6 +1,7 @@
 /* Site build */
 body {
   background-color: hsl(212, 45%, 89%);
+  margin: 0;
 }
 
 p, a {
@@ -22,11 +23,14 @@ h3 {
 #center-screen .qr-code {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5%;
-  padding-top: 15px;
-  /* width: 300px;
-  height: 450px; */
-  width: 18.75rem;
-  height: 28.125rem;
+  padding-top: 1.5vh;
+  width: 33vh;
+  height: 49vh;
+}
+
+#center-screen .qr-code .qr-text{
+  display: inline-block;
+  width: 30vh;
 }
 
 #center-screen .qr-code .qr-image {
@@ -35,18 +39,15 @@ h3 {
 }
 
 #center-screen .qr-code p {
-  font-size: 15px;
+  font-size: 1.7vh;
   color: hsl(220, 15%, 55%);
 }
-
-#center-screen .qr-code h3, p {
-  width: 250px;
-  position: relative;
-  left: 25px;
+#center-screen .qr-code h3 {
+  font-size: 2.2vh;
 }
 
 #footer {
-  font-size: 15px;
+  font-size: 1.7vh;
   text-align: center;
 }
 
