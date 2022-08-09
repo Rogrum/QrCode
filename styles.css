@@ -49,9 +49,9 @@ h3 {
 .footer {
   position: absolute;
   bottom: 4vh;
+  font-size: 1.7vh;
 }
 
 .footer a {
   color: hsl(228, 45%, 44%);
-  font-size: 1.7vh;
 }
