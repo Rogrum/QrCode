@@ -48,7 +48,10 @@ h3 {
 
 .footer {
   position: absolute;
-  bottom: 4vh;
+  bottom: 3vh;
+}
+
+.footer p, a {
   font-size: 1.7vh;
 }
 
